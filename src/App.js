@@ -5,7 +5,7 @@ import MapGL from 'react-map-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoicGFkdWFjIiwiYSI6ImNrYTM0OTB2OTA3ZGEzZXBpa2s1b25ndXQifQ.5-HgjXsXJjbZXcWquLkBDQ';
+const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
 
 class Root extends Component {
   constructor(props) {
