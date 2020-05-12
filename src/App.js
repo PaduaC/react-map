@@ -1,7 +1,8 @@
 import * as React from 'react';
 import {Component} from 'react';
 import {render} from 'react-dom';
-import MapGL from 'react-map-gl';
+import MapGL, {Marker} from 'react-map-gl';
+import * as lotData from './data/ct-lots.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 
@@ -27,10 +28,12 @@ class Root extends Component {
         {...this.state.viewport}
         width="100vw"
         height="100vh"
-        mapStyle="mapbox://styles/mapbox/dark-v9"
+        mapStyle="mapbox://styles/paduac/cka3d505900wa1ipi02v9on7h"
         onViewportChange={viewport => this.setState({viewport})}
         mapboxApiAccessToken={MAPBOX_TOKEN}
-      />
+      >
+         
+      </MapGL>
     );
   }
 }
