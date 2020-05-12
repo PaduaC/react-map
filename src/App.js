@@ -1,0 +1,41 @@
+import * as React from 'react';
+import {Component} from 'react';
+import {render} from 'react-dom';
+import MapGL from 'react-map-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+
+const MAPBOX_TOKEN = 'pk.eyJ1IjoicGFkdWFjIiwiYSI6ImNrYTM0OTB2OTA3ZGEzZXBpa2s1b25ndXQifQ.5-HgjXsXJjbZXcWquLkBDQ';
+
+class Root extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      viewport: {
+        latitude: 41.5951,
+        longitude: -72.6454,
+        zoom: 14,
+        bearing: 0,
+        pitch: 0
+      }
+    };
+  }
+
+  render() {
+    return (
+      <MapGL
+        {...this.state.viewport}
+        width="100vw"
+        height="100vh"
+        mapStyle="mapbox://styles/mapbox/dark-v9"
+        onViewportChange={viewport => this.setState({viewport})}
+        mapboxApiAccessToken={MAPBOX_TOKEN}
+      />
+    );
+  }
+}
+
+document.body.style.margin = 0;
+render(<Root />, document.body.appendChild(document.createElement('div')));
+
+export default Root;
