@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Component} from 'react';
 import {render} from 'react-dom';
 import MapGL, {Marker} from 'react-map-gl';
-import * as lotData from './data/ct-lots.json';
+import * as medData from './data/med-info.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 
@@ -32,7 +32,15 @@ class Root extends Component {
         onViewportChange={viewport => this.setState({viewport})}
         mapboxApiAccessToken={MAPBOX_TOKEN}
       >
-         
+      {medData.dispos.map(med => 
+        <Marker 
+          key={med.properties.id} 
+          latitude={med.properties.coordinates[1]} 
+          longitude={med.properties.coordinates[0]}
+        >
+          <div>WEED</div>
+        </Marker>
+      )}
       </MapGL>
     );
   }
