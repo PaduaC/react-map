@@ -34,9 +34,9 @@ class Root extends Component {
       >
       {medData.dispos.map(med => 
         <Marker 
-          key={med.properties.id} 
-          latitude={med.properties.coordinates[1]} 
-          longitude={med.properties.coordinates[0]}
+          key={med.id} 
+          latitude={med.coordinates[1]} 
+          longitude={med.coordinates[0]}
         >
           <div>WEED</div>
         </Marker>

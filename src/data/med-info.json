@@ -1,94 +1,94 @@
 {
  "dispos": [
-        {
+        
             
-            "properties": {
+                {
                     "id": 23,
                     "name": "Affinity Health & Wellness",
                     "coordinates": [ -72.9740, 41.3322]
                 },
-            "properties": {
+                {
                     "id": 24,
                     "name": "Arrow Alternative Care, Inc.",
                     "coordinates": [-72.6626, 41.7872]
                 },
-            "properties": {
+                {
                     "id": 25,
                     "name": "Arrow Alternative Care #2, Inc.",
                     "coordinates": [-73.0560, 41.2332]
                 },
-            "properties": {
+                {
                     "id": 26,
                     "name": "Arrow Alternative Care #3, Inc.",
                     "coordinates": [-73.5273, 41.0553]
                 },
-            "properties": {
+                {
                     "id": 27,
                     "name": "Bluepoint Wellness of Connecticut",
                     "coordinates": [-72.7730, 41.2982]
                 },
-            "properties": {
+                {
                     "id": 28,
                     "name": "Bluepoint Wellness of Westport",
                     "coordinates": [-73.3131, 41.1386]
                 },
-            "properties": {
+                {
                     "id": 29,
                     "name": "Caring Nature, LLC",
                     "coordinates": [-73.0583, 41.5707]
                 },
-            "properties": {
+                {
                     "id": 30,
                     "name": "Compassionate Care Center of Connecticut/D&B Wellness, LLC",
                     "coordinates": [-73.3983, 41.4182]
                 },
-            "properties": {
+                {
                     "id": 31,
                     "name": "Fine Fettle Dispensary",
                     "coordinates": [-72.2363, 41.7189]
                 },
-            "properties":{
+                {
                     "id": 32,
                     "name": "Fine Fettle Dispensary-Newington",
                     "coordinates": [-72.7058, 41.6911]
                 },
-            "properties":{
+                {
                     "id": 33,
                     "name": "Nature’s Medicines",
                     "coordinates": [-72.2761, 41.8310]
                 },
-            "properties":{
+                {
                     "id": 34,
                     "name": "Prime Wellness of Connecticut, LLC",
                     "coordinates": [-72.6178, 41.8015]
                 },
-            "properties":{
+                {
                     "id": 35,
                     "name": "Still River Wellness",
                     "coordinates": [-73.0756, 41.8808]
                 },
-            "properties":{
+                {
                     "id": 36,
                     "name": "Southern CT Wellness & Healing, LLC",
                     "coordinates": [-73.0436, 41.2235]
                 },
-            "properties":{
+                {
                     "id": 37,
                     "name": "Thames Valley Relief, LLC",
                     "coordinates": [-72.1059, 41.4498]
                 },
-            "properties":{
+                {
                     "id": 38,
                     "name": "The Healing Corner/Trulieve",
                     "coordinates": [-72.8921, 41.6731]
                 },
-            "properties":{
+                {
                     "id": 39,
                     "name": "Willow Brook Wellness, LLC",
                     "coordinates": [-72.7570, 41.5253]
                 }
             
-        }
+        
        
     ]
 }
