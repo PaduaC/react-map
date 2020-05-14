@@ -21,6 +21,7 @@ class Root extends Component {
       }
     };
   }
+  
 
   render() {
     return (
@@ -38,7 +39,9 @@ class Root extends Component {
           latitude={med.coordinates[1]} 
           longitude={med.coordinates[0]}
         >
-          <div>WEED</div>
+          <button class="marker-btn">
+            <img src="weed.svg" alt="x" height="30px" width="30px" />
+          </button>
         </Marker>
       )}
       </MapGL>
