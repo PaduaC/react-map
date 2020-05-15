@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {Component} from 'react';
 import {render} from 'react-dom';
-import MapGL, {Marker} from 'react-map-gl';
+import MapGL, {Marker, Popup} from 'react-map-gl';
 import * as medData from './data/med-info.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -18,10 +18,55 @@ class Root extends Component {
         zoom: 14,
         bearing: 0,
         pitch: 0
-      }
+      },
+      popupInfo: null
     };
   }
-  
+
+
+_renderCityMarker = (med, index) => {
+  return(
+    <Marker 
+        key={`marker-${index}`} 
+        latitude={med.coordinates[1]} 
+        longitude={med.coordinates[0]}
+      >
+        <button 
+          className="marker-btn"
+          onClick={() => this.setState({popupInfo: med})}
+        >
+          <img src="weed.svg" alt="x" height="30px" width="30px" />
+        </button>
+      </Marker>
+  )    
+}
+
+
+
+_onClickMarker = med => {
+  this.setState({popupInfo: med})
+}
+
+_renderPopup() {
+  const {popupInfo} = this.state;
+
+    return (
+      popupInfo && (
+        <Popup
+          tipSize={5}
+          anchor="top"
+          longitude={popupInfo.coordinates[0]}
+          latitude={popupInfo.coordinates[1]}
+          closeOnClick={false}
+          onClose={() => this.setState({popupInfo: null})}
+        >
+          <div>
+            <h2>{popupInfo}</h2>
+          </div>
+        </Popup>
+      )
+    );
+}
 
   render() {
     return (
@@ -33,17 +78,10 @@ class Root extends Component {
         onViewportChange={viewport => this.setState({viewport})}
         mapboxApiAccessToken={MAPBOX_TOKEN}
       >
-      {medData.dispos.map(med => 
-        <Marker 
-          key={med.id} 
-          latitude={med.coordinates[1]} 
-          longitude={med.coordinates[0]}
-        >
-          <button class="marker-btn">
-            <img src="weed.svg" alt="x" height="30px" width="30px" />
-          </button>
-        </Marker>
-      )}
+      
+      {medData.dispos.map(this._renderCityMarker)}
+      {this._renderPopup()}
+
       </MapGL>
     );
   }

@@ -5,87 +5,105 @@
                 {
                     "id": 23,
                     "name": "Affinity Health & Wellness",
-                    "coordinates": [ -72.9740, 41.3322]
+                    "coordinates": [ -72.9740, 41.3322],
+                    "img": "https://affinityct.com/wp-content/uploads/2019/06/site-logo-stacked.png"
                 },
                 {
                     "id": 24,
                     "name": "Arrow Alternative Care, Inc.",
-                    "coordinates": [-72.6626, 41.7872]
+                    "coordinates": [-72.6626, 41.7872],
+                    "img": "https://images.weedmaps.com/dispensaries/000/052/148/avatar/original/1510583314-arrow_alternative_care_marijuana_dispensary_in_milford_ct.png"
                 },
                 {
                     "id": 25,
                     "name": "Arrow Alternative Care #2, Inc.",
-                    "coordinates": [-73.0560, 41.2332]
+                    "coordinates": [-73.0560, 41.2332],
+                    "img": "https://images.weedmaps.com/dispensaries/000/052/148/avatar/original/1510583314-arrow_alternative_care_marijuana_dispensary_in_milford_ct.png"
                 },
                 {
                     "id": 26,
                     "name": "Arrow Alternative Care #3, Inc.",
-                    "coordinates": [-73.5273, 41.0553]
+                    "coordinates": [-73.5273, 41.0553],
+                    "img": "https://images.weedmaps.com/dispensaries/000/052/148/avatar/original/1510583314-arrow_alternative_care_marijuana_dispensary_in_milford_ct.png"
                 },
                 {
                     "id": 27,
                     "name": "Bluepoint Wellness of Connecticut",
-                    "coordinates": [-72.7730, 41.2982]
+                    "coordinates": [-72.7730, 41.2982],
+                    "img": "https://www.bluepointwellnessct.com/wp-content/uploads/2017/08/Bluepoint_logo-300x118.png"
                 },
                 {
                     "id": 28,
                     "name": "Bluepoint Wellness of Westport",
-                    "coordinates": [-73.3131, 41.1386]
+                    "coordinates": [-73.3131, 41.1386],
+                    "img": "https://www.bluepointwellnessct.com/wp-content/uploads/2017/08/Bluepoint_logo-300x118.png"
                 },
                 {
                     "id": 29,
                     "name": "Caring Nature, LLC",
-                    "coordinates": [-73.0583, 41.5707]
+                    "coordinates": [-73.0583, 41.5707],
+                    "img": "https://lh3.googleusercontent.com/proxy/w8DWbcObMvmmSI6nrNB1k3PSHPENRPgRlRdU_-rVbSC5AEYbnzx332Lse1GviEy0T8CUnGW1Hm82iz8R2yyIbJYdLzOtVkWqLJq-x7HEM6N6fJdBEAjvW-FENtauKQ"
                 },
                 {
                     "id": 30,
                     "name": "Compassionate Care Center of Connecticut/D&B Wellness, LLC",
-                    "coordinates": [-73.3983, 41.4182]
+                    "coordinates": [-73.3983, 41.4182],
+                    "img": "https://lh6.ggpht.com/2Y9kj8-WgLeIh89xQHP3GYesiqae9mXHS6Tq7tXjK3pzt2rGbSiAG0g9IT0wk0BOJ5CeKj0o12c-JkaTYFw28loCe2nXAEf-"
                 },
                 {
                     "id": 31,
                     "name": "Fine Fettle Dispensary",
-                    "coordinates": [-72.2363, 41.7189]
+                    "coordinates": [-72.2363, 41.7189],
+                    "img": "https://www.finefettle.com/wp-content/uploads/2018/12/large.png"
                 },
                 {
                     "id": 32,
                     "name": "Fine Fettle Dispensary-Newington",
-                    "coordinates": [-72.7058, 41.6911]
+                    "coordinates": [-72.7058, 41.6911],
+                    "img": "https://www.finefettle.com/wp-content/uploads/2018/12/large.png"
                 },
                 {
                     "id": 33,
                     "name": "Nature’s Medicines",
-                    "coordinates": [-72.2761, 41.8310]
+                    "coordinates": [-72.2761, 41.8310],
+                    "img": "https://media-exp1.licdn.com/dms/image/C560BAQECyBCOKHDl3Q/company-logo_200_200/0?e=2159024400&v=beta&t=tPCElp5leqNgh2WTGN-JNrEr965SnQPuQrgnyuqnsLI"
                 },
                 {
                     "id": 34,
                     "name": "Prime Wellness of Connecticut, LLC",
-                    "coordinates": [-72.6178, 41.8015]
+                    "coordinates": [-72.6178, 41.8015],
+                    "img": "https://assets.wikileaf.com/assets/dispensaries/dispensary/logo/prime-wellness-of-connecticut-llc.png"
+
                 },
                 {
                     "id": 35,
                     "name": "Still River Wellness",
-                    "coordinates": [-73.0756, 41.8808]
+                    "coordinates": [-73.0756, 41.8808],
+                    "img": "https://www.dispensarygenie.com/wp-content/uploads/job-manager-uploads/main_image/2019/07/Still-River-Vector-Logo.png"
                 },
                 {
                     "id": 36,
                     "name": "Southern CT Wellness & Healing, LLC",
-                    "coordinates": [-73.0436, 41.2235]
+                    "coordinates": [-73.0436, 41.2235],
+                    "img": "https://images.weedmaps.com/dispensaries/000/052/150/avatar/original/1510583314-southern_ct_wellness_and_healing_marijuana_dispensary_in_milford_ct.png"
                 },
                 {
                     "id": 37,
                     "name": "Thames Valley Relief, LLC",
-                    "coordinates": [-72.1059, 41.4498]
+                    "coordinates": [-72.1059, 41.4498],
+                    "img": "https://images.weedmaps.com/dispensaries/000/038/637/avatar/square_fill/1510582697-thames_valley_logo.jpg"
                 },
                 {
                     "id": 38,
                     "name": "The Healing Corner/Trulieve",
-                    "coordinates": [-72.8921, 41.6731]
+                    "coordinates": [-72.8921, 41.6731],
+                    "img": "https://www.thesocialweed.com/wp-content/uploads/2019/05/trulieve.jpg"
                 },
                 {
                     "id": 39,
                     "name": "Willow Brook Wellness, LLC",
-                    "coordinates": [-72.7570, 41.5253]
+                    "coordinates": [-72.7570, 41.5253],
+                    "img": "https://media-exp1.licdn.com/dms/image/C4E0BAQGpSyhDcTbVsg/company-logo_200_200/0?e=2159024400&v=beta&t=fx3Bk0TrSr9CqkUIsEdliy-LZ0TXc1j-deB-YwHH-Rk"
                 }
             
         
