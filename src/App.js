@@ -5,6 +5,8 @@ import MapGL, {Marker, Popup} from 'react-map-gl';
 import * as medData from './data/med-info.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+import MedInfo from './medinfo'
+
 
 const MAPBOX_TOKEN = process.env.REACT_APP_MAPBOX_TOKEN;
 
@@ -41,7 +43,9 @@ _renderCityMarker = (med, index) => {
   )    
 }
 
-
+_updateViewport = viewport => {
+    this.setState({viewport});
+  };
 
 _onClickMarker = med => {
   this.setState({popupInfo: med})
@@ -60,9 +64,7 @@ _renderPopup() {
           closeOnClick={false}
           onClose={() => this.setState({popupInfo: null})}
         >
-          <div>
-            <h2>{popupInfo}</h2>
-          </div>
+          <MedInfo info={popupInfo} />
         </Popup>
       )
     );
