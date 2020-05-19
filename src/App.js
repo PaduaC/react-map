@@ -4,6 +4,7 @@ import {render} from 'react-dom';
 import MapGL, {Marker, Popup} from 'react-map-gl';
 import * as medData from './data/med-info.json';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import './index.css';
 
 import MedInfo from './medinfo'
 
